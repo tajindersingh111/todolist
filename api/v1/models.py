@@ -12,4 +12,5 @@ class TodoItemCreate(BaseModel):
 
 class TodoItemUpdate(BaseModel):
     title: Optional[str] = None
-    description: Optional[str] = None
+    # description: Optional[str] = Noned
+    
